@@ -1,0 +1,14 @@
+{
+  "tests": "./test/*_test.js",
+  "timeout": 10000,
+  "output": "./test/output",
+  "helpers": {
+    "Puppeteer": {
+      "url": "http://localhost:9000"
+    }
+  },
+  "include": {},
+  "bootstrap": false,
+  "mocha": {},
+  "name": "codecept-playground"
+}

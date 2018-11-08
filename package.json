@@ -1,0 +1,15 @@
+{
+  "name": "codecept-playground",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/GA1/codecept-playground",
+  "author": "Kamil Nguyen Van <kamil.nguyen@typeform.com>",
+  "license": "MIT",
+  "scripts": {
+    "test:functional": "codeceptjs run --steps"
+  },
+  "dependencies": {
+    "codeceptjs": "^1.4.5",
+    "puppeteer": "^1.10.0"
+  }
+}
